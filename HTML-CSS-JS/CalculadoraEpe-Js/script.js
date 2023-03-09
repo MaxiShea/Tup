@@ -96,7 +96,7 @@ formulario.addEventListener('submit', function(e) {
     const { tipo_usuario, zona_domicilio, cantidad_kwh } = datos
 
     if (tipo_usuario === '' || zona_domicilio === '' || cantidad_kwh === '') {
-        mostrarError("Todos los campos deben estar completos")
+        mostrarError("Todos los campos son obligatorios")
         return
     }
     else {

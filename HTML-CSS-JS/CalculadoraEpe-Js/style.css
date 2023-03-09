@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     /*font-size: 62.5%;*/
-    background-image: url("https://www.lifeder.com/wp-content/uploads/2021/08/concepto-electricidad-cables.jpg");
+    background-image: url("./img/concepto-electricidad-cables.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,15 +89,17 @@ select{
 }
 .error {
     bottom: 150px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: red;
     color: white;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 5px;
     filter: drop-shadow(1px 1px 3px #000);
     position: absolute;
-    left: 20%;
+    left: 25%;
 }
 .resultado {
     bottom: 150px;
